@@ -1,1 +1,1 @@
-# e-bor_example_module
+# e-bot_example_module
