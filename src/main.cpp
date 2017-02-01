@@ -11,7 +11,7 @@ public:
 	}
 
 	void module_loop() {
-		cout << "Hi, J'm your new plugin" << endl;
+		cout << "Hi, I'm your new plugin" << endl;
 		sleep(1);
 	}
 };

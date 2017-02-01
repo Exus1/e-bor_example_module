@@ -54,10 +54,6 @@ set(SRCS
 
 add_library(your_module_name MODULE ${SRCS})
 
-# Link required libraries
-#target_link_libraries(e-your_module_name dl)
-#target_link_libraries(e-your_module_name pthread)
-
 # Link TeamSpeak3-C-Query-API library
 target_link_libraries(your_module_name teamspeak-api-${BUILD_ARCH})
 
